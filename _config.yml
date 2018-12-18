@@ -1,29 +1,29 @@
 # Site settings
-title: BY Blog
-SEOTitle: 柏荧的博客 | BY Blog
-header-img: img/post-bg-desk.jpg
-email: qiubaiying@gmail.com
-description: "Every failure is leading towards success."
-keyword: "CJJ, CJJ Blog, 褚俊杰的博客, chujunjie, 褚俊杰, java, coding"
-url: "http://chujunjie.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+title: MY Blog
+SEOTitle: 褚俊杰的博客 | MY Blog
+header-img: img/post-bg-desk2.jpg
+email: c.junjie@hotmail.com
+description: "Do what you say, say what you do."
+keyword: "Blog, 褚俊杰的博客, chujunjie, 褚俊杰, java, coding"
+url: "http://chujunjie.github.io"
+baseurl: ""
+github_repo: "https://github.com/chujunjie/chujunjie.github.io"
 
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "I am a slow walker,but I never walk backwards."
-sidebar-avatar: /img/img/avatar-m.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar: true
+sidebar-about-description: "I am a slow walker, but I never walk backwards."
+sidebar-avatar: /img/avatar-m.jpg
 
 
 
 # SNS settings
 RSS: false
 weibo_username:     jeveuxquetucrois
-# zhihu_username:     qiubaiying
+zhihu_username:     jeveuxquetucrois
 github_username:    chujunjie
 # facebook_username:  baiying.qiu.7
-# jianshu_username:   e71990ada2fd
-#twitter_username:   qiubaiying
+jianshu_username:   b83d8d7a1563
+# twitter_username:   chujunjie
 
 
 
@@ -57,16 +57,16 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+# disqus_username: jeveuxquetucrois
 
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  repo: chujunjie.github.io    #仓库名称
+  owner: chujunjie    #github用户名
+  admin: chujunjie
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -78,7 +78,7 @@ ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
 ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -96,19 +96,19 @@ service-worker: true
 
 
 
-# Friends
-friends: [
-    {
-        title: "WY",
-        href: "http://zhengwuyang.com"
-    },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
-    },{
-        title: "Apple",
-        href: "https://apple.com"
-    },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
-    }
-]
+# # Friends
+# friends: [
+#     {
+#         title: "WY",
+#         href: "http://zhengwuyang.com"
+#     },{
+#         title: "简书·BY",
+#         href: "http://www.jianshu.com/u/e71990ada2fd"
+#     },{
+#         title: "Apple",
+#         href: "https://apple.com"
+#     },{
+#         title: "Apple Developer",
+#         href: "https://developer.apple.com/"
+#     }
+# ]
