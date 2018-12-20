@@ -3,7 +3,7 @@ title: MY Blog
 SEOTitle: 褚俊杰的博客 | MY Blog
 header-img: img/bg7.jpg
 email: c.junjie@hotmail.com
-description: "Do what you say, say what you do."
+description: "I am a slow walker, but I never walk backwards."
 keyword: "Blog, 褚俊杰的博客, chujunjie, 褚俊杰, java, coding"
 url: "http://chujunjie.github.io"
 baseurl: ""
@@ -11,7 +11,7 @@ github_repo: "https://github.com/chujunjie/chujunjie.github.io"
 
 # Sidebar settings
 sidebar: true
-sidebar-about-description: "I am a slow walker, but I never walk backwards."
+sidebar-about-description: "Do what you say, say what you do."
 sidebar-avatar: /img/avatar-m.jpg
 
 
