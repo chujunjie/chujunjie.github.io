@@ -4,7 +4,7 @@ title:      用python为Gitalk博客评论插件自动化创建issue
 subtitle:   
 date:       2019-01-04
 author:     chujunjie
-header-img: img/post-bg-cook.jpg
+header-img: img\post_img\2019-01-04\bg.jpg
 catalog: true
 tags:
     - python
