@@ -4,7 +4,7 @@ title:      Tomcat源码学习笔记 - Connector组件（一）
 subtitle:   
 date:       2019-04-21
 author:     chujunjie
-header-img: img/bg1.jpg
+header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
     - java
