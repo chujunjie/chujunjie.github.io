@@ -538,3 +538,4 @@ public class Poller implements Runnable {
 ```
 
 processKey()这个方法主要通过调用processSocket()方法创建一个SocketProcessor，然后丢到Tomcat线程池中去执行。每个Endpoint都有自己的SocketProcessor实现，从Endpoint的属性中可以看到，这个Processor也有缓存机制。
+总结一下Poller所做的事：遍历PollerEvents队列，将每个事件中的通道感兴趣的事件注册到Selector，当事件就绪时，创建一个SocketProcessor或者从缓存中取出一个SocketProcessor，然后放到线程池执行或者直接执行它的run方法执行。
