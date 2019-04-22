@@ -13,12 +13,6 @@ tags:
 
 
 
-####  前言
-
-Tomcat作为目前非常流行的web容器，其架构设计是非常值得我们借鉴的，它的生命周期管理、多级容器的协调工作，同时在Tomcat中运用了很多设计模式。
-
-
-
 ##### Connector组件
 
 Tomcat作为一款web容器，响应处理请求，需要与底层数据做交互，而Connector组件就是Service服务与Socket套接字之间的桥梁。Coyote框架是Tomcat默认的Connector，在org.apache.coyote包下，当然我们也可以自己实现自定义的Connector适配。
