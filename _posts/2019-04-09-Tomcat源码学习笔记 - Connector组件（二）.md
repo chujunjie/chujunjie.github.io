@@ -90,7 +90,7 @@ protected class SocketProcessor extends SocketProcessorBase<NioChannel> {
 
 在c2处，该方法将包装好的socketWrapper继续传下去，来看下调用栈，最终在Http11Processor的service方法中处理，而这个Http11Processor正是Processor的一个实现类，用来真正解析流。
 
-![1](https://raw.githubusercontent.com/chujunjie/chujunjie.github.io/master/img/post_img/2019-04-20/1.png)
+![1](https://raw.githubusercontent.com/chujunjie/chujunjie.github.io/master/img/post_img/2019-04-30/1.png)
 
 
 
